@@ -28,7 +28,7 @@ The agents (defined in `ddpg_agent.py`) use these hyperparameters as config
 - LR_CRITIC = 1e-3        # learning rate of the critic
 - WEIGHT_DECAY = 0        # L2 weight decay
 - UPDATE_EVERY = 10		  # number of time steps to wait until next update
-- UPDATES_PER_STEP = 10   # number of updates (experience sampling and backpropagation) to be done on each update
+- UPDATES_PER_STEP = 10   # number of updates (experience sampling and backpropagation) to be done on each step
 
 When an agent takes a step, I also add the experience to other agents' memory as well, as explained in the overview.
 
