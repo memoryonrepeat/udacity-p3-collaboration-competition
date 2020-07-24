@@ -1,6 +1,6 @@
 ### Overview 
 
-This repo contains my submission for Udacity Deep Reinforcement Learning course - Project 2.
+This repo contains my submission for Udacity Deep Reinforcement Learning course - Project 3.
 
 The project is about training 2 agents to try to keep the ball in play for as long as possible in a tennis game.
 
