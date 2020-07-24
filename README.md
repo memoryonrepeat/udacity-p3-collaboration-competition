@@ -14,7 +14,6 @@ Each agent receives its own, local observation. Two continuous actions are avail
 
 The task is episodic and is considered successful when the agents get an average score of 0.5 over 100 consecutive episodes, after taking the maximum over both agents. To be precise:
 
-
 - After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 2 (potentially different) scores. We then take the maximum of these 2 scores.
 
 - This yields a single score for each episode.
